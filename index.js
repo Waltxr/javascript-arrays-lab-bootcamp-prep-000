@@ -24,3 +24,8 @@ function appendKitten(name) {
   var newkittens = kittens.push(name)
   return newkittens
 }
+
+function prependKitten(name) {
+  var newkittens = kittens.unshift(name)
+  return newkittens
+}
